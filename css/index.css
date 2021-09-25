@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
+    background: rgb(223, 223, 223);
+}
+
+html {
+    height: -webkit-fill-available;
+}
+
+.button.active{
+    background: rgb(68, 68, 253);
+}

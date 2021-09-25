@@ -1,0 +1,91 @@
+html{
+    height: 100%;
+    margin: 0;
+    width: 100%;
+}
+
+body{
+    min-height: 100%;
+    /* background: linear-gradient(34deg ,rgb(135,82,201), orange); */
+    background: url("background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.login-container{
+    position:relative;
+    width: 400px;
+    height: 350px;
+    margin: auto;
+    top: 100px;
+    /* margin-top: 140px; */
+    /* margin-bottom: 140px; */
+    border: hidden;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius:10px;
+    background: rgb(255, 255, 255);
+}
+
+.login-container span{
+    font-size:26px;
+    color: rgb(16, 16, 56);
+    position:relative;
+    top: -20px;
+    font-family: Roboto;
+}
+
+form{
+    text-align: center;
+    width: 80%;
+    height: 200px;
+}
+
+form input{
+    width: 290px;
+    margin-bottom: 20px;
+    height:38px;
+    background-color: white;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) ;
+    outline: none;
+    padding-left: 20px;
+    font-size: 18px;
+    border:hidden;
+    color:rgb(61, 61, 61);
+    border-radius: 20px;
+}   
+
+form button{
+    margin-top: 19px;
+    margin-bottom: 20px;
+    width: 200px;
+    height:37px;
+    font-size: 19px;
+    border-radius: 20px;
+    border:hidden;
+    background-color: rgb(135,82,201);
+    color: white;
+    cursor: pointer;
+}
+
+form button:focus{
+    outline: none;
+}
+
+form .error{
+    color: red;
+}
+
+@media only screen and (max-width:420px)
+{
+    .login-container{
+        width: 90%;
+    }
+
+    form input{
+        width: 90%;
+    }
+}

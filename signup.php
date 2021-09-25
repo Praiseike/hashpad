@@ -2,6 +2,7 @@
     session_start();
     $_SESSION['msg'] = "";
     $_SESSION['error'] = "";
+
     $USER_DIR = "users";
 
     include 'db_connect.php';
@@ -67,29 +68,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./bootstrap-4.0.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Google+Sans:400,500,700|Google+Sans+Text:400">
     <link href="./css/signup.css" rel="stylesheet">
     <title>Sign Up</title>
 </head>
 <body>
-
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-        <a class="navbar-brand">
-            <img src="note.png" width="30" height="30" alt="note">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id = "collapsibleNavbar">    
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active"><a href="#" class="nav-link">STUFF</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">STUFF</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">STUFF</a></li>
-            </ul>
-        </div>
-    </nav>
-
 
     <div class="login-container">
         <span>Sign Up</span>
@@ -103,7 +86,6 @@
         </form>
 
     </div>
-    <script src="./bootstrap-4.0.0/dist/js/bootstrap.min.js">
         
 </body>
 </html>

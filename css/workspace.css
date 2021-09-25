@@ -1,0 +1,21 @@
+.workspace{
+    position: fixed;
+    left: 280px;
+    width: calc(100% - 280px);
+    height: 100%;
+    text-align:center;
+    float: right;
+}
+
+.workspace img{
+    width: 40%;
+    height: 40%;
+    margin-top: 100px;
+    opacity:0.7;
+}
+
+.workspace h2{
+    font-size: x-large;
+    font-weight: 100;
+    margin-top: 20px;
+}
