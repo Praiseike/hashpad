@@ -14,7 +14,7 @@
             $_SESSION['note_count'] = $note_count;
             header("Location: library.php");
         }
-    }
+    }9
 ?>
 
 <!DOCTYPE html>

@@ -37,6 +37,12 @@
 
             echo json_encode(array("status" => "saved","filename" => $filename));
             $_SESSION['filename'] = $filename;
+            if(!isset($_SESSION['note_count']))
+            {
+                $_SESSION['note_count'] = 1;
+            }// else{
+            //     $_SESSION['note_count'] += 1
+            // }
         }
         else{
              echo json_encode(array("status" => "failed"));

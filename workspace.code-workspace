@@ -1,9 +1,9 @@
 {
 	"folders": [
-		{
-			"name": "hashpad",
-			"path": "."
-		}
-	],
+        {
+            "name": "hashpad",
+            "path": "."
+        }
+    ],
     "settings": {}
 }

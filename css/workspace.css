@@ -3,7 +3,7 @@
     overflow: auto;
     left: 280px;
     width: calc(100% - 280px);
-    height: 300px;
+    height: 100vh;
     text-align:center;
     float: right;
 }

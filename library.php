@@ -59,7 +59,7 @@
 
     <div class="workspace" >
     <?php
-        if($_SESSION['note_count'] == 0){
+        if(isset($_SESSION['note_count']) && $_SESSION['note_count'] == 0){
             include 'empty.php';
         }else{
             include 'note_list.php';
