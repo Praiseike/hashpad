@@ -1,8 +1,9 @@
 .workspace{
     position: fixed;
+    overflow: auto;
     left: 280px;
     width: calc(100% - 280px);
-    height: 100%;
+    height: 300px;
     text-align:center;
     float: right;
 }

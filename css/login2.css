@@ -1,0 +1,82 @@
+body{
+    margin: 0px;
+    height: 100vh;
+    background: #f3f3f3;
+}
+
+.container{
+    text-align:center;
+    width: 420px;
+    float:left;
+    height: 100vh;
+    background: #212529!important;
+    color:white;
+}
+.container span{
+    font-size: 25px;
+}
+.login-container{
+    position:relative;
+    margin: auto;
+    top: 70px;
+    width: 70%;
+    height:70%;
+    text-align:left;
+    box-shadow: 0px 0px 40px 14px rgb(48, 65, 218,0.2);
+    padding: 20px;
+}
+.login-container input:first-child{
+    margin-top: 100px;
+}
+.login-container input{
+    width: 100%;
+    height: 34px;
+    background: none;
+    border: 1px solid grey;
+    margin-top: 25px;
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+    outline:none;
+    border-top:hidden;
+    border-left: hidden;
+    border-right: hidden;
+}
+
+.illustration{
+    text-align:center;
+    margin-top: 70px;
+    font-weight: 100;
+    width:500px;
+    height:500px;
+    float:right;
+    margin-right:200px;
+}
+
+.illustration img{
+    width: 100%;
+    height: 100%;
+}
+
+.login-container button{
+    outline:none;
+    width: 130px;
+    height:30px;
+    background: rgb(70, 70, 209);
+    border:hidden;
+    color: white;
+    font-size: 20px;
+    margin-top: 100px;
+}
+
+
+.login-container p{
+    margin-top: 80px;
+}
+
+h2{
+    font-size: x-large;
+    font-weight: 100;
+    margin-top: 20px;
+    margin-top: -100px;
+}

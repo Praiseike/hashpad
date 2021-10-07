@@ -1,0 +1,78 @@
+.overlay{
+    position:fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    background: black;
+    pointer-events: none;
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+}
+
+input[type="checkbox"]:checked ~ .overlay{
+    -webkit-transform: scale(1);
+            transform: scale(1);
+            
+    -webkit-transition: transform 0.5s ease, opacity 0.5s ease;
+            transition: transform 0.5s ease, opacity 0.5s ease;
+    
+    pointer-events: auto;
+    opacity: 0.7;
+}
+
+.modal{
+    text-align: left;
+    position:fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 100;
+    display: block;
+    -webkit-transform: translate(-50%,0px) scale(0.5);
+            transform: translate(-50%,0px) scale(0.5);
+    
+    width: 100%;
+    max-width: 640px;
+    pointer-events: none;
+    opacity: 0;
+}
+
+input[type="checkbox"]:checked ~ .modal{
+    -webkit-transform: translate(-50%,-50%) scale(1);
+            transform: translate(-50%,-50%) scale(1);
+
+    -webkit-transition: transform 0.5s ease, opacity 0.5s ease;
+            transition: transform 0.5s ease, opacity 0.5s ease;
+
+    pointer-events: auto;
+    opacity: 1;
+}
+
+
+.modal-content{
+    display:block;
+    padding: 30px;
+    background: white;
+}
+
+.modal-content .btn{
+    width: 100px;
+    float: right;
+    margin-left: 10px;
+    /* background: green; */
+}
+
+.modal-content .btn:hover{
+    background: rgb(68, 68, 253);
+    color: white;
+}
+
+.modal-content input{
+    width: 300px;
+    height: 40px;
+    padding-left: 10px;
+}
+.modal-content input:active{
+    outline: none;
+}

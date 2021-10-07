@@ -35,14 +35,12 @@ li.button{
 }
 
 li.button:hover{
-    background: rgb(68, 68, 253);
+    background: rgb(34, 34, 66);
 }
 
-li.button:active{
-    background: rgb(68, 68, 253);
-}
 
 a{
+    text-decoration:none;
     color: #f3f3f3;
     margin-left: 20px;
 }

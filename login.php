@@ -43,22 +43,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Google+Sans:400,500,700|Google+Sans+Text:400">
-    <link href="./css/login.css" rel="stylesheet">
+    <link href="./css/login2.css" rel="stylesheet">
     <title>Login</title>
 </head>
 <body>
-    
-    <div class="login-container">
-        <span>Log In</span>
-        <form method="POST" action="login.php">
-            <input type="email" required name="email" placeholder="Email" id="email">
-            <input type="password" required name="password" placeholder="Password" id="password">
-            <?php echo $_SESSION['msg']; ?>
-            <button type="submit">submit</button>
-            <p> Don't Have an Account? <a href="signup.php">Sign Up</a></p>
-        </form>
+    <div class="container">
+        <div class="login-container">
+            <span>Log In</span>
+            <form method="POST" action="login.php">
+                <input type="email" required name="email" placeholder="Email" id="email">
+                <input type="password" required name="password" placeholder="Password" id="password">
+                <?php echo $_SESSION['msg']; ?>
+                <button type="submit">submit</button>
+                <p> Don't Have an Account? <a href="signup.php">Sign Up</a></p>
+            </form>
+        </div>
     </div>
-    
-
+    <div class="illustration">
+        <img src="./images/account.svg">
+        <h2>Login and Create Exciting notes</h2>
+    </div>
 </body>
 </html>

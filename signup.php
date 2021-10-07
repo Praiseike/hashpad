@@ -2,7 +2,7 @@
     session_start();
     $_SESSION['msg'] = "";
     $_SESSION['error'] = "";
-
+    $_SESSION['new_user'] = true;
     $USER_DIR = "users";
 
     include 'db_connect.php';
